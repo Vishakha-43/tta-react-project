@@ -9,7 +9,8 @@
   display: flex;
   grid-row: auto;
   padding:10px;
-  border: 5px solid black;
+  box-shadow: 0 4px 8px 0 rgb(255 224 156), 0 6px 20px 0 rgb(244 144 12 / 23%);
+  
 }
 .logo{
   display: flex;
@@ -56,4 +57,27 @@ ul, li{
   color: #5c913b;
   font-size: 34px;
   text-decoration: underline;
+}
+.footer-container{
+    direction: ltr;
+    padding: 15px;
+    margin-bottom: 0;
+    border: 3px solid #ffe09c;
+    background-color: #ffe09c;
+}
+.footer-link{
+  text-decoration: none;
+  color: #5c913b;
+  font-size: 18px;
+} 
+
+.footer-links{
+  padding: 10px;
+}
+
+
+
+.reserved{
+  color:rgb(217, 162, 22);
+  font-weight: 300;
 }
